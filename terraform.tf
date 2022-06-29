@@ -34,7 +34,6 @@ resource "aws_subnet" "private-subnet-a" {
   tags = {
     Dev = "Development - private"
   }
-
 }
 
 resource "aws_subnet" "public-subnet-a" {
