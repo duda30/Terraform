@@ -1,4 +1,4 @@
----------------S2--------------
+---------------S2---------------
 
             TERRAFORM
 
@@ -28,4 +28,4 @@ Esse código irá criar na Região N. Virgínia:
 
 Por fim temos variáveis que serão usadas no decorrer do código.
 
----------------S2--------------
+---------------S2---------------
