@@ -20,7 +20,6 @@ resource "aws_s3_bucket" "marymarybucketteste" {
 
 # Create a VPC
 resource "aws_vpc" "vpc-atlas-padrao" {
-  # name = "VPC ATLAS PADRAO"
   cidr_block           = var.blocos[0]
   enable_dns_hostnames = true
   tags = {
@@ -29,7 +28,6 @@ resource "aws_vpc" "vpc-atlas-padrao" {
 }
 
 resource "aws_subnet" "private-subnet-a" {
-  #name = "Subnet Privada ATLAS"
   vpc_id            = aws_vpc.vpc-atlas-padrao.id
   cidr_block        = var.Range[0]
   availability_zone = "us-east-1a"
@@ -40,7 +38,6 @@ resource "aws_subnet" "private-subnet-a" {
 }
 
 resource "aws_subnet" "public-subnet-a" {
-  #name = "Subnet Publica ATLAS"
   vpc_id            = aws_vpc.vpc-atlas-padrao.id
   cidr_block        = var.Range[1]
   availability_zone = "us-east-1a"
