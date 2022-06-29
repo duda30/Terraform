@@ -52,7 +52,6 @@ resource "aws_eip" "elastic-ip" {
   tags = {
     Name = "Elastic IP"
   }
-
   depends_on = [
     aws_internet_gateway.igw
   ]
