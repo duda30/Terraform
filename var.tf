@@ -24,7 +24,7 @@ variable "regions" {
   description = "Regioes para serem usadas em VPCs"
 }
 
-#Ips de subnet
+#Ips de subnets
 
 variable "Range" {
   type = list(string)
@@ -45,6 +45,8 @@ variable "Range" {
   ]
   description = "Intervalo de IPs para Subnets"
 }
+
+#Zonas na NUVEM AWS
 
 variable "Zonas" {
   type = list(string)
