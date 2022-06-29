@@ -43,7 +43,6 @@ resource "aws_subnet" "public-subnet-a" {
   tags = {
     Dev = "Development - public"
   }
-
 }
 
 resource "aws_eip" "elastic-ip" {
