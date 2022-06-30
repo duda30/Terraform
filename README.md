@@ -1,8 +1,6 @@
 ------------------------------------------------S2------------------------------------------------
 
-            TERRAFORM
-
-Esse é o meu projeto usando o Terraform para subir uma infraestrutura na NUVEM AWS
+Esse é o meu projeto usando o Terraform para subir uma infraestrutura na NUVEM AWS!
 
 Para que funcione é necessário que os dois arquivos fiquem na mesma pasta.
 
@@ -21,7 +19,7 @@ Esse código irá criar na Região N. Virgínia:
     1 EC2 pública|
     Grupos de segurança etc...
 
-É importante lembrar que o controle estado será remoto, em vez de ser local.
+É importante lembrar que o controle de estado será remoto em vez de ser local.
 
 E é por isso que coloquei como back-end do Terraform um Bucket S3 com versionamento habilitado.
 
